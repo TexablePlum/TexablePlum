@@ -81,7 +81,7 @@
 - 🎨 Autorskie sprite-y i grafiki wiernie nawiązujące do oryginalnego klimatu gry
 
 
-## 🔄 [3. SortAlgorithms](https://github.com/TexablePlum/Sort_Algoritms)
+## 🔄 [3. SortAlgorithms](https://github.com/TexablePlum/Sort_Algorithms)
 
 **Zestaw implementacji najpopularniejszych algorytmów sortowania w C#, wraz z interaktywną wizualizacją ich działania.**
 
