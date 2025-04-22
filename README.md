@@ -171,7 +171,7 @@
 |---|---|
 | ![Coursera HA73QOOYTU0G](https://github.com/user-attachments/assets/279a9113-a43e-4b56-8d31-692da712016c) | ![Coursera WIU6PM11ZEL0](https://github.com/user-attachments/assets/b47bb268-66fb-41f9-aed9-7b3ca07f6d4c) |
 
-| [📙 Introdduction to Deep Learning & Neural Networks with Keras](https://coursera.org/share/c0251258813c2c23f5461e21ce41d742) | [📒 Deep Learning with Keras and TensorFlow](https://coursera.org/share/50aed3ed79422a7ebd9d14666e72071b) |
+| [📙 Introduction to Deep Learning & Neural Networks with Keras](https://coursera.org/share/c0251258813c2c23f5461e21ce41d742) | [📒 Deep Learning with Keras and TensorFlow](https://coursera.org/share/50aed3ed79422a7ebd9d14666e72071b) |
 |---|---|
 | ![Coursera 73J6DC7XBM2L](https://github.com/user-attachments/assets/8959dabc-451e-420f-8b19-810f8fe01aab) | ![Coursera B3IAU7PNNXE2](https://github.com/user-attachments/assets/751882ca-2295-42f4-ad47-f95a7246257f) |
 
