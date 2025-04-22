@@ -123,7 +123,7 @@
 - 🧠 Modele: sieci konwolucyjne, autoenkodery, GAN-y, modele regresji, Q-Learning i DQN  
 - 🛠️ Własne pętle treningowe i eksperymenty z hiperparametrami  
 - 📈 Klasyfikatory obrazów: owoce, odpady, uszkodzenia samolotów (z wykorzystaniem pretrenowanych modeli)  
-- 🧬 Praca z architekturami typu `transformer` i fine-tuning modeli VGG16  
+- 🧬 Praca z architekturami typu `transformer` i `fine-tuning` modeli VGG16  
 
 
 ## ♟️ [7. Checkers / Warcaby *(works‑in‑progress)*](https://github.com/TexablePlum/Checkers)
