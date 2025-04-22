@@ -175,7 +175,7 @@
 |---|---|
 | ![Coursera 73J6DC7XBM2L](https://github.com/user-attachments/assets/8959dabc-451e-420f-8b19-810f8fe01aab) | ![Coursera B3IAU7PNNXE2](https://github.com/user-attachments/assets/751882ca-2295-42f4-ad47-f95a7246257f) |
 
-| [📕 Kompletny kurs C# dla developerów .NET](https://www.udemy.com/certificate/UC-d3e72b9d-b1ba-4628-b55d-f1a267ce1669/) | [📔 SOLID, Wzorce Projektowe w C# (.NET)](https://www.udemy.com/certificate/UC-44c7e55f-55f4-435b-9b64-89b7b9c05f95/) |
+| [📕 C# dla developerów .NET](https://www.udemy.com/certificate/UC-d3e72b9d-b1ba-4628-b55d-f1a267ce1669/) | [📔 SOLID, Wzorce Projektowe w C# (.NET)](https://www.udemy.com/certificate/UC-44c7e55f-55f4-435b-9b64-89b7b9c05f95/) |
 |---|---|
 | ![UC-d3e72b9d-b1ba-4628-b55d-f1a267ce1669](https://github.com/user-attachments/assets/c15be5f1-3dd9-4ffa-971f-457dd92b83ec) | ![UC-44c7e55f-55f4-435b-9b64-89b7b9c05f95](https://github.com/user-attachments/assets/712fe744-4864-42bf-9484-4d60b4833265) |
 
