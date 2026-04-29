@@ -35,7 +35,7 @@
 
 <br/>
 
-### [NEXA](https://github.com/TexablePlum/NEXA) — platforma VOD z autorskim systemem DRM
+### [NEXA](https://github.com/TexablePlum/NEXA-VOD-Service) — platforma VOD z autorskim systemem DRM
 
 ![.NET 9](https://img.shields.io/badge/.NET-9.0-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
