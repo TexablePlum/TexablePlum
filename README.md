@@ -126,8 +126,6 @@ Za bezpieczeństwo odpowiada uwierzytelnianie oparte na JWT z mechanizmem refres
 
   ### Kontakt 📬
 
-  Napisz do mnie — chętnie porozmawiam o ciekawych projektach i możliwościach współpracy.
-
   [![Email](https://img.shields.io/badge/porebskid8%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:porebskid8@gmail.com)
   [![GitHub](https://img.shields.io/badge/TexablePlum-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TexablePlum)
 
