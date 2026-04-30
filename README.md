@@ -35,7 +35,7 @@
 
 <br/>
 
-### [NEXA](https://github.com/TexablePlum/NEXA-VOD-Service) — platforma VOD z autorskim systemem DRM
+### [NEXA](https://github.com/TexablePlum/NEXA-VOD-Service) - platforma VOD z autorskim systemem DRM
 
 ![.NET 9](https://img.shields.io/badge/.NET-9.0-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -43,14 +43,15 @@
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 ![AES-256](https://img.shields.io/badge/AES--256--GCM-8B0000?style=flat-square&logo=letsencrypt&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
 
 Samodzielna platforma streamingowa realizująca pełny cykl ochrony treści — od transkodowania i szyfrowania wideo, przez bezpieczną dystrybucję kluczy powiązanych z urządzeniem, aż po egzekwowanie limitów jakości zgodnych z planem subskrypcji.
 
-Architektura mikroserwisowa (DRM server + Content server) ukryta za Nginx, szyfrowanie AES-256-GCM, streaming MPEG-DASH, dwupoziomowy cache (RAM + Redis). Klient desktopowy WinUI 3 z Shaka Playerem osadzonym w WebView2. Dwa tryby zabezpieczeń — sprzętowy (TPM/Windows CNG, klucz prywatny nigdy nie opuszcza modułu) i programowy (RSA-2048 + DPAPI, jakość ograniczona do 720p).
+Architektura mikroserwisowa (DRM server + Content server) ukryta za Nginx, szyfrowanie AES-256-GCM, streaming MPEG-DASH, dwupoziomowy cache. Klient desktopowy WinUI 3 z Shaka Player osadzonym w WebView2. Dwa tryby zabezpieczeń — sprzętowy (TPM/Windows CNG) i programowy (RSA-2048 + DPAPI).
 
 <br/>
 
-### [PixelTree](https://github.com/TexablePlum/PixelTree) — system sterowania oświetleniem ARGB LED
+### [PixelTree](https://github.com/TexablePlum/PixelTree) - system oświetlenia ARGB LED
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
@@ -59,24 +60,25 @@ Architektura mikroserwisowa (DRM server + Content server) ukryta za Nginx, szyfr
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 ![BLE](https://img.shields.io/badge/BLE-0082FC?style=flat-square&logo=bluetooth&logoColor=white)
 
-Projekt inżynierski — kompletny system sterowania łańcuchem adresowalnych diod LED oparty na mikrokontrolerze ESP32-S3. Ponad 40 w pełni konfigurowalnych efektów świetlnych generowanych w 60 fps.
+Projekt inżynierski - Kompletny prototyp oświetlenia dekoracyjnego ARGB LED.
+Zbudowany z wykorzystaniem mikrokontrolera ESP32-S3, estetycznie wykończonego łańcucha adresowalnych diod WS2812D, dwustopniowej regulacji napięcia oraz obudowy z druku 3D.
 
-Firmware zarządza logiką efektów na APP_CPU, oddzielając ją od stosu sieciowego (PRO_CPU). Dwa tryby łączności: WiFi (REST API + mDNS, zero-config discovery) i BLE z szyfrowaniem ECDH+AES przy parowaniu. Wieloplatformowa aplikacja mobilna Flutter na iOS i Android. Obudowa elektroniki zaprojektowana i wydrukowana w 3D.
+Zoptymalizowany firmware wykorzystuje podział na rdzenie procesora, jeden rdzeń odpowiada za generowanie ponad 40 konfigurowalnych efektów świetlnych w 60 fps, drugi rdzeń obsługuje stos sieciowy. Urządzenie oferuje łączność Wi-Fi (REST API, mDNS zero-config discovery) oraz BLE z bezpiecznym, szyfrowanym parowaniem (ECDH+AES). Do zarządzania oświetleniem służy dedykowana aplikacja mobilna na systemy iOS i Android stworzona w wieloplatformowym frameworku Flutter.
 
 <br/>
 
-### [CalorieTracker](https://github.com/TexablePlum/CalorieTracker) — REST API do zarządzania żywieniem
+### [CalorieTracker](https://github.com/TexablePlum/CalorieTracker) - REST API do zarządzania żywieniem
 
 ![.NET 9](https://img.shields.io/badge/.NET-9.0-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B?style=flat-square&logo=flutter&logoColor=white)
 
-Backend systemu do śledzenia diety, zbudowany zgodnie z Clean Architecture, CQRS i DDD. Wdrożony na Microsoft Azure z pełnym pipelinekiem CI/CD przez GitHub Actions.
+Kompleksowy backend systemu do monitorowania diety, zaprojektowany zgodnie z paradygmatami Clean Architecture, CQRS oraz Domain-Driven Design (DDD). Projekt stanowi warstwę serwerową dla dedykowanej [aplikacji mobilnej stworzonej we Flutterze](https://github.com/TexablePlum/CalorieTracker-Flutter), zapewniając skalowalną i przejrzystą strukturę kodu.
 
-JWT z refresh tokenami (ASP.NET Core Identity), FluentValidation, AutoMapper, dokumentacja Swagger/OpenAPI. Testy jednostkowe serwisów domenowych. Dokumentacja techniczna automatycznie publikowana na GitHub Pages przy każdym pushu.
-
+Za bezpieczeństwo odpowiada uwierzytelnianie oparte na JWT z mechanizmem refresh tokenów, a poprawność logiki domenowej zapewniają testy jednostkowe. W projekcie wykorzystano narzędzia takie jak FluentValidation oraz AutoMapper. System został wdrożony w chmurze Microsoft Azure przy wykorzystaniu zautomatyzowanego potoku CI/CD w GitHub Actions, który odpowiada również za automatyczne generowanie publikację dokumentacji Swagger/OpenAPI na GitHub Pages przy każdej aktualizacji repozytorium.
 
 ---
 
