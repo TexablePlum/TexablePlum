@@ -1,133 +1,159 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0d2137,100:0d1117&height=200&section=header&text=Dominik%20Por%C4%99bski&fontSize=54&fontColor=e6edf3&animation=fadeIn&fontAlignY=40&desc=Student%20II%20stopnia%20Informatyki%20%E2%80%94%20Politechnika%20%C5%9Al%C4%85ska&descAlignY=62&descSize=18&descColor=8b949e" width="100%"/>
 
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&lines=.NET+%7C+Java+%7C+Python+%7C+Dart+%7C+C%2B%2B;Clean+Architecture+%7C+CQRS+%7C+DDD;Docker+%7C+Azure+%7C+Redis+%7C+PostgreSQL;Backend+Security+%26+Application+Design" alt="Typing SVG" />
+# Dominik Porębski
 
-  <br/>
+### C#/.NET Software Developer · Computer Science MSc Student
 
-  <p>
-    Głównie interesuję się backendem - preferuję ekosystem <strong>.NET</strong>.<br/>
-    Tworzę też w Javie, Pythonie, Darcie i C++.<br/>
-    W swoich projektach stawiam na czystą architekturę, bezpieczeństwo i jakość kodu.
-  </p>
+Backend systems · REST APIs · desktop clients · mobile apps · embedded
 
-  <br/>
+[![Email](https://img.shields.io/badge/Email-porebskid8%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:porebskid8@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-TexablePlum-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/TexablePlum)
+[![Location](https://img.shields.io/badge/Gliwice-Poland-0d1117?style=flat-square)](#)
 
-  [![Email](https://img.shields.io/badge/porebskid8%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:porebskid8@gmail.com)
-  [![GitHub](https://img.shields.io/badge/TexablePlum-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/TexablePlum)
 </div>
 
 ---
 
-## Technologie
+## Profile
+
+I am a Computer Science MSc student at the Silesian University of Technology, focused on C#/.NET software development, backend architecture and practical engineering.
+
+I build projects that go beyond a single application layer: APIs with authentication, domain logic, data persistence, deployment pipelines, caching, desktop clients, mobile clients, firmware, device communication and real hardware prototypes.
+
+My main stack is .NET, ASP.NET Core, Entity Framework Core, SQL Server, PostgreSQL, Redis, Docker, GitHub Actions and Azure. I also use Flutter, Python, Java and C++ when the project needs a different tool.
+
+## Core Stack
 
 <div align="center">
 
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,java,py,dart,cpp&theme=dark" /><br/>
-  <img src="https://skillicons.dev/icons?i=postgres,redis,docker,azure,nginx,linux&theme=dark" /><br/>
-  <img src="https://skillicons.dev/icons?i=flutter,git,githubactions,visualstudio,vscode&theme=dark" />
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-9.0-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-Web_API-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Entity Framework](https://img.shields.io/badge/Entity_Framework_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 
 </div>
 
----
+| Area | Technologies and practices |
+|---|---|
+| Backend | .NET 9, ASP.NET Core Web API, REST APIs, microservices, JWT, SignalR |
+| Architecture | Clean Architecture, CQRS, DDD, SOLID, MVVM |
+| Data | Entity Framework Core, SQL Server, PostgreSQL, Redis |
+| Quality | xUnit, Moq, FluentValidation, AutoMapper, Swagger, Postman |
+| Delivery | Docker, Docker Compose, Nginx, GitHub Actions, Azure, Git, Linux |
+| Clients | WinUI 3, XAML, Flutter, Dart |
 
-## Główne Projekty
+## Selected Projects
 
-<br/>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### [NEXA](https://github.com/TexablePlum/NEXA-VOD-Service) - platforma VOD z autorskim systemem DRM
+### [NEXA VOD Service](https://github.com/TexablePlum/NEXA-VOD-Service)
+
+**Self-hosted Video-on-Demand platform with a custom DRM system.**
 
 ![.NET 9](https://img.shields.io/badge/.NET-9.0-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![AES-256](https://img.shields.io/badge/AES--256--GCM-8B0000?style=flat-square&logo=letsencrypt&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
+![WinUI 3](https://img.shields.io/badge/WinUI_3-0078D4?style=flat-square&logo=windows&logoColor=white)
 
-Samodzielna platforma streamingowa realizująca pełny cykl ochrony treści — od transkodowania i szyfrowania wideo, przez bezpieczną dystrybucję kluczy powiązanych z urządzeniem, aż po egzekwowanie limitów jakości zgodnych z planem subskrypcji.
+- Microservice architecture with DRM and content services behind an Nginx gateway.
+- Device-bound license issuing with TPM-first key storage and software fallback.
+- Subscription-based quality limits, license heartbeats and concurrent stream enforcement.
+- MPEG-DASH streaming pipeline with transcoding, encryption and CEK registration.
+- WinUI 3 desktop client using WebView2 and Shaka Player.
 
-Architektura mikroserwisowa (DRM server + Content server) ukryta za Nginx, szyfrowanie AES-256-GCM, streaming MPEG-DASH, dwupoziomowy cache. Klient desktopowy WinUI 3 z Shaka Player osadzonym w WebView2. Dwa tryby zabezpieczeń — sprzętowy (TPM/Windows CNG) i programowy (RSA-2048 + DPAPI).
+</td>
+<td width="50%" valign="top">
 
-<br/>
+### [CalorieTracker](https://github.com/TexablePlum/CalorieTracker)
 
-### [PixelTree](https://github.com/TexablePlum/PixelTree) - system oświetlenia ARGB LED
+**Nutrition tracking REST API with domain logic, authentication and Azure deployment.**
+
+![.NET 9](https://img.shields.io/badge/.NET-9.0-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure_App_Service-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![xUnit](https://img.shields.io/badge/xUnit-512BD4?style=flat-square)
+![Swagger](https://img.shields.io/badge/OpenAPI-85EA2D?style=flat-square&logo=swagger&logoColor=black)
+
+- REST API designed with Clean Architecture, CQRS-style handlers and DDD principles.
+- ASP.NET Core Identity with JWT access tokens, refresh tokens, email confirmation and password reset.
+- Domain services for nutrition, recipe and weight calculations covered by unit tests.
+- FluentValidation, AutoMapper, Swagger and Postman verification.
+- GitHub Actions pipeline for Azure deployment and documentation publishing.
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### [PixelTree](https://github.com/TexablePlum/PixelTree)
+
+**ARGB LED lighting system with ESP32-S3 firmware and a Flutter companion app.**
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
-![FreeRTOS](https://img.shields.io/badge/FreeRTOS-000000?style=flat-square)
 ![ESP32-S3](https://img.shields.io/badge/ESP32--S3-E7352C?style=flat-square&logo=espressif&logoColor=white)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-000000?style=flat-square)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 ![BLE](https://img.shields.io/badge/BLE-0082FC?style=flat-square&logo=bluetooth&logoColor=white)
 
-Projekt inżynierski - Kompletny prototyp oświetlenia dekoracyjnego ARGB LED.
-Zbudowany z wykorzystaniem mikrokontrolera ESP32-S3, estetycznie wykończonego łańcucha adresowalnych diod WS2812D, dwustopniowej regulacji napięcia oraz obudowy z druku 3D.
+- Engineering thesis project built as a complete hardware and software prototype.
+- ESP32-S3 firmware rendering 42 configurable LED effects at a 60 FPS target.
+- FreeRTOS task split across cores for effect rendering and network communication.
+- Secure BLE provisioning with ECDH and AES.
+- Flutter app with Wi-Fi control over REST APIs and zero-config discovery through mDNS.
 
-Zoptymalizowany firmware wykorzystuje podział na rdzenie procesora, jeden rdzeń odpowiada za generowanie ponad 40 konfigurowalnych efektów świetlnych w 60 fps, drugi rdzeń obsługuje stos sieciowy. Urządzenie oferuje łączność Wi-Fi (REST API, mDNS zero-config discovery) oraz BLE z bezpiecznym, szyfrowanym parowaniem (ECDH+AES). Do zarządzania oświetleniem służy dedykowana aplikacja mobilna na systemy iOS i Android stworzona w wieloplatformowym frameworku Flutter.
+</td>
+</tr>
+</table>
 
-<br/>
+## Additional Work
 
-### [CalorieTracker](https://github.com/TexablePlum/CalorieTracker) - REST API do zarządzania żywieniem
+| Project | Stack | Focus |
+|---|---|---|
+| [goniec-digitizer](https://github.com/TexablePlum/goniec-digitizer) | Python, Google Cloud Vision, OCRmyPDF, PyMuPDF | OCR pipeline for downloading, processing and merging historical newspaper scans into searchable yearly PDF files. |
+| [SkyPulse](https://github.com/TexablePlum/SkyPulse) | Flutter, Dart | Weather app with AQI, API integration and geolocation. |
+| [Sort Algorithms](https://github.com/TexablePlum/Sort_Algorithms) | C# | Interactive sorting visualization with async execution and cancellation tokens. |
+| [Tetris](https://github.com/TexablePlum/Tetris) | C#, MonoGame | Game loop, scoring, themes and polished UI. |
+| [PacMan](https://github.com/TexablePlum/PacMan_LibGDX_POiW_2025_proj) | Java, LibGDX | JSON-based map generation and custom ghost behavior. |
+| [TensorFlow Mini Projects](https://github.com/TexablePlum/Tensorflow) | Python, TensorFlow, Keras | CNNs, autoencoders, GANs, Q-Learning and VGG16 fine-tuning. |
 
-![.NET 9](https://img.shields.io/badge/.NET-9.0-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B?style=flat-square&logo=flutter&logoColor=white)
+## Education
 
-Kompleksowy backend systemu do monitorowania diety, zaprojektowany zgodnie z paradygmatami Clean Architecture, CQRS oraz Domain-Driven Design (DDD). Projekt stanowi warstwę serwerową dla dedykowanej [aplikacji mobilnej stworzonej we Flutterze](https://github.com/TexablePlum/CalorieTracker-Flutter), zapewniając skalowalną i przejrzystą strukturę kodu.
+| Degree | Details |
+|---|---|
+| MSc in Computer Science | Silesian University of Technology, Machine Learning specialization, 2026 to present |
+| BEng in Computer Science | Silesian University of Technology, 2022 to 2026 |
 
-Za bezpieczeństwo odpowiada uwierzytelnianie oparte na JWT z mechanizmem refresh tokenów, a poprawność logiki domenowej zapewniają testy jednostkowe. W projekcie wykorzystano narzędzia takie jak FluentValidation oraz AutoMapper. System został wdrożony w chmurze Microsoft Azure przy wykorzystaniu zautomatyzowanego potoku CI/CD w GitHub Actions, który odpowiada również za automatyczne generowanie publikację dokumentacji Swagger/OpenAPI na GitHub Pages przy każdej aktualizacji repozytorium.
+Engineering thesis: **Design and implementation of an ARGB LED decorative lighting system using an ESP32 microcontroller with a dedicated mobile application**
 
----
+Academic distinction: **Rector's Scholarship for outstanding academic performance**
 
-## Pozostałe Projekty
+## Certifications and Courses
 
-<div align="center">
+| Course | Provider |
+|---|---|
+| [Python for Everybody](https://coursera.org/share/4f8c18b555a4100b668eaeec0234a9ab) | Coursera |
+| [Fundamentals of Java Programming](https://coursera.org/share/835439e0cf849efce9dab714c0c36969) | Coursera |
+| [Introduction to Deep Learning and Neural Networks with Keras](https://coursera.org/share/c0251258813c2c23f5461e21ce41d742) | Coursera |
+| [Deep Learning with Keras and TensorFlow](https://coursera.org/share/50aed3ed79422a7ebd9d14666e72071b) | Coursera |
+| [C# for .NET Developers](https://www.udemy.com/certificate/UC-d3e72b9d-b1ba-4628-b55d-f1a267ce1669/) | Udemy |
+| [SOLID and Design Patterns in C#](https://www.udemy.com/certificate/UC-44c7e55f-55f4-435b-9b64-89b7b9c05f95/) | Udemy |
+| [GitHub Copilot for Developers](https://mycourse.app/DEYlLdAZZSMBgtklD) | Microsoft |
 
-| Projekt | Technologie | Opis |
-|:--------|:-----------:|:-----|
-| [SkyPulse](https://github.com/TexablePlum/SkyPulse) | Flutter · Dart | Mobilna aplikacja pogodowa z indeksem jakości powietrza (AQI), danymi z zewnętrznego API i geolokalizacją |
-| [SortAlgorithms](https://github.com/TexablePlum/Sort_Algorithms) | C# | Interaktywna wizualizacja algorytmów sortowania — async/await, tokeny przerwań, responsywne UI |
-| [Tetris](https://github.com/TexablePlum/Tetris) | C# · MonoGame | Klon Tetrisa z wieloma motywami graficznymi, systemem punktacji i animowanym UI |
-| [PacMan](https://github.com/TexablePlum/PacMan_LibGDX_POiW_2025_proj) | Java · LibGDX | Remake PacMana z dynamicznym generowaniem mapy z JSON i zaawansowanym AI duszków |
-| [TensorFlow Mini Projects](https://github.com/TexablePlum/Tensorflow) | Python · TensorFlow · Keras | Eksperymenty ML/DL: CNN, autoenkodery, GAN-y, Q-Learning, fine-tuning VGG16 |
+## Contact
 
-</div>
-
----
-
-## Certyfikaty
-
-<div align="center">
-
-| [📘 Python for Everybody](https://coursera.org/share/4f8c18b555a4100b668eaeec0234a9ab) | [📗 Fundamentals of Java Programming](https://coursera.org/share/835439e0cf849efce9dab714c0c36969) |
-|:---:|:---:|
-| [![Python for Everybody](https://github.com/user-attachments/assets/279a9113-a43e-4b56-8d31-692da712016c)](https://coursera.org/share/4f8c18b555a4100b668eaeec0234a9ab) | [![Fundamentals of Java Programming](https://github.com/user-attachments/assets/b47bb268-66fb-41f9-aed9-7b3ca07f6d4c)](https://coursera.org/share/835439e0cf849efce9dab714c0c36969) |
-
-| [📙 Introduction to Deep Learning & Neural Networks with Keras](https://coursera.org/share/c0251258813c2c23f5461e21ce41d742) | [📒 Deep Learning with Keras and TensorFlow](https://coursera.org/share/50aed3ed79422a7ebd9d14666e72071b) |
-|:---:|:---:|
-| [![Introduction to Deep Learning](https://github.com/user-attachments/assets/8959dabc-451e-420f-8b19-810f8fe01aab)](https://coursera.org/share/c0251258813c2c23f5461e21ce41d742) | [![Deep Learning with Keras and TensorFlow](https://github.com/user-attachments/assets/751882ca-2295-42f4-ad47-f95a7246257f)](https://coursera.org/share/50aed3ed79422a7ebd9d14666e72071b) |
-
-| [📕 C# dla deweloperów .NET](https://www.udemy.com/certificate/UC-d3e72b9d-b1ba-4628-b55d-f1a267ce1669/) | [📔 SOLID i Wzorce Projektowe w C#](https://www.udemy.com/certificate/UC-44c7e55f-55f4-435b-9b64-89b7b9c05f95/) |
-|:---:|:---:|
-| [![C# dla deweloperów .NET](https://github.com/user-attachments/assets/c15be5f1-3dd9-4ffa-971f-457dd92b83ec)](https://www.udemy.com/certificate/UC-d3e72b9d-b1ba-4628-b55d-f1a267ce1669/) | [![SOLID i Wzorce Projektowe w C#](https://github.com/user-attachments/assets/712fe744-4864-42bf-9484-4d60b4833265)](https://www.udemy.com/certificate/UC-44c7e55f-55f4-435b-9b64-89b7b9c05f95/) |
-
-| [📓 GitHub Copilot dla programistów](https://mycourse.app/DEYlLdAZZSMBgtklD) |
-|:---:|
-| [![GitHub Copilot dla programistów](https://github.com/user-attachments/assets/b097137b-4dd4-4c1f-bf54-16052397ed77)](https://mycourse.app/DEYlLdAZZSMBgtklD) |
-
-</div>
-
----
-
-<div align="center">
-
-  ### Kontakt 📬
-
-  [![Email](https://img.shields.io/badge/porebskid8%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:porebskid8@gmail.com)
-  [![GitHub](https://img.shields.io/badge/TexablePlum-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TexablePlum)
-
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:0d2137,100:0d1117&height=120&section=footer" width="100%"/>
-</div>
+**Email:** [porebskid8@gmail.com](mailto:porebskid8@gmail.com)  
+**GitHub:** [TexablePlum](https://github.com/TexablePlum)
